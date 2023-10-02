@@ -1,0 +1,5 @@
+.align {
+  display: flex;
+  border: black solid;
+  gap: 20px;
+}
