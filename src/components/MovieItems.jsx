@@ -1,14 +1,24 @@
 import React from "react";
-
+import "./comp.css";
+import ReactStars from "react-rating-stars-component";
 function MovieItems(props) {
+  console.log(props.c);
   return (
-    <div>
-      <img src={props.a} width={500} height={700} />
-      <h1>{props.b}</h1>
-      <h3>{props.c}</h3>
-      <h3>{props.d}</h3>
-      <h3>{props.e}</h3>
-      <h3>{props.f}</h3>
+    <div className="texxt">
+      <img src={props.a} width={300} height={500} />
+      <div>
+        <h1 style={{ textAlign: "center" }}>{props.b}</h1>
+        <div className="center">
+          <ReactStars
+            count={10}
+            value={props.c}
+            size={24}
+            color="grey"
+            activeColor="#000000"
+            edit={false}
+          />
+        </div>
+      </div>
     </div>
   );
 }
