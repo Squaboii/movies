@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 import ReactStars from "react-rating-stars-component";
 import { FiRefreshCcw } from "react-icons/fi";
 import Modal from "react-bootstrap/Modal";
-
+import "../App.css";
 function LeNav(props) {
   const [newmovie, Setnewmovie] = useState({});
   const [show, setShow] = useState(false);
@@ -15,16 +15,14 @@ function LeNav(props) {
   const handleShow = () => setShow(true);
   console.log(newmovie);
   console.log(props.addmovies);
+
   return (
     <div>
       {" "}
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container fluid>
           <Navbar.Brand href="#">THE INFINTE MOVIES</Navbar.Brand>
-          <div
-            className="space
-          "
-          >
+          <div className="space">
             <ReactStars
               count={10}
               // onChange={ratingChanged}
@@ -92,9 +90,9 @@ function LeNav(props) {
               placeholder="Title"
               className="me-2"
               aria-label="Search"
-              onChange={(event) =>
-                Setnewmovie({ ...newmovie, title: event.target.value })
-              }
+              onChange={(event) => {
+                Setnewmovie({ ...newmovie, title: event.target.value });
+              }}
             />
             <Form.Control
               type="Rating"

@@ -7,6 +7,7 @@ export const Data = [
     actors: "Charlie chalamas,Zendeya,Michael jackson he he",
     desc: "Dune is a movie for the family with big worms that eat people for fun and also zendeya is very beautiful",
     time: "2h",
+    categorie: "Action",
   },
   {
     image:
@@ -16,6 +17,7 @@ export const Data = [
     actors: "tom cruse,jhonny,Vladimir Poutine",
     desc: "star wars is a movie that happens in space with space ships piw piw piw and with diffrent species of people its a little scary but fun",
     time: "2H",
+    categorie: "Mystery",
   },
   {
     image:
@@ -25,6 +27,7 @@ export const Data = [
     actors: "Batman,chris brown,rihana <3",
     desc: "batman killing punching bad people put them in jail and he dont like joker so much so he looks for joker to kill him also what a guy",
     time: "3h",
+    categorie: "Action ",
   },
   {
     image:
@@ -34,6 +37,7 @@ export const Data = [
     actors: "Charlie chalamas,Zendeya,Michael jackson he he",
     desc: "Dune is a movie for the family with big worms that eat people for fun and also zendeya is very beautiful",
     time: "2h",
+    categorie: "HORROR",
   },
   {
     image:
@@ -43,6 +47,7 @@ export const Data = [
     actors: "Charlie chalamas,Zendeya,Michael jackson he he",
     desc: "Dune is a movie for the family with big worms that eat people for fun and also zendeya is very beautiful",
     time: "2h",
+    categorie: "Thrilling",
   },
   {
     image:
@@ -52,5 +57,6 @@ export const Data = [
     actors: "tonystrek,michael bae ,celine dion,spiderman ",
     desc: "Tony stark piw piw with laser kill bad people and also kill aliens and also kills ur family",
     time: "2h",
+    categorie: "Magic",
   },
 ];
